@@ -1,0 +1,41 @@
+.widget-container {
+    position: fixed;
+    bottom: 1.25rem; /* 5 * 0.25rem */
+    right: 1.25rem; /* 5 * 0.25rem */
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff; /* white */
+    border: 1px solid #e5e7eb; /* gray-200 */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    z-index: 9999;
+  }
+  
+  .widget-button {
+    position: fixed;
+    bottom: 1.25rem; /* 5 * 0.25rem */
+    right: 1.25rem; /* 5 * 0.25rem */
+    padding-left: 1.5rem; /* px-6 (6 * 0.25rem) */
+    padding-right: 1.5rem; /* px-6 (6 * 0.25rem) */
+    padding-top: 0.75rem; /* py-3 (3 * 0.25rem) */
+    padding-bottom: 0.75rem; /* py-3 (3 * 0.25rem) */
+    background-color: #4f46e5; /* indigo-600 */
+    color: #ffffff; /* text-white */
+    border: none;
+    border-radius: 0.5rem; /* rounded-lg */
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+  .widget-header {
+    padding: 0.75rem; /* p-3 (3 * 0.25rem) */
+    border-bottom: 1px solid #e5e7eb; /* border-b (gray-200) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .widget-content {
+    padding: 1rem; /* p-4 (4 * 0.25rem) */
+  }
+  
