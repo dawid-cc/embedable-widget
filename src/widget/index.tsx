@@ -1,4 +1,4 @@
-import { hydrateRoot } from "react-dom/client";
+import { createRoot } from "react-dom/client";
 import { WIdgetWrapper } from "./components/WIdgetWrapper";
 
 function init() {
@@ -18,7 +18,8 @@ function onReady() {
     const component = <WIdgetWrapper />;
 
     shadow.appendChild(shadowRoot);
-    hydrateRoot(shadowRoot, component);
+    const root = createRoot(shadowRoot);
+    root.render(component);
     document.body.appendChild(element);
   } catch (error) {
     console.warn("init not possible: ", error);
