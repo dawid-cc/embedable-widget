@@ -36,9 +36,7 @@ Bundles the app in single static file that can be included in any website via sc
 ### imitate website and widget
 
 ```
-yarn serve
+yarn preview
 ```
 
 > **_NOTE:_** You need to run yarn build before running this command.
-
-Starts two servers, one for the app and another for the widget. Servers work on different ports, simulating the widget being included in a different website.

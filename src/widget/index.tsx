@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { WIdgetWrapper } from "./components/WIdgetWrapper";
+import { WidgetWrapper } from "./components/WidgetWrapper";
 
 function init() {
   if (document.readyState !== "loading") {
@@ -15,7 +15,7 @@ function onReady() {
     const shadow = element.attachShadow({ mode: "open" });
     const shadowRoot = document.createElement("div");
 
-    const component = <WIdgetWrapper />;
+    const component = <WidgetWrapper />;
 
     shadow.appendChild(shadowRoot);
     const root = createRoot(shadowRoot);
